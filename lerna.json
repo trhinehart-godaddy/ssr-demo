@@ -1,0 +1,16 @@
+{
+  "version": "independent",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "private": false
+    },
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    }
+  }
+}

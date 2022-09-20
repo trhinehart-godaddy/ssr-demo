@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "ssr-demo",
+  "scripts": {
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap --hoist",
+    "prepare": "npm run bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^5.5.1"
+  }
+}
